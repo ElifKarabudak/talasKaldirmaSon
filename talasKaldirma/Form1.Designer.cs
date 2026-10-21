@@ -68,7 +68,7 @@
             devDept.Eyeshot.Control.ViewCubeIcon viewCubeIcon2 = new devDept.Eyeshot.Control.ViewCubeIcon(devDept.Eyeshot.Control.coordinateSystemPositionType.TopRight, true, Color.FromArgb(220, 20, 60), true, "FRONT", "BACK", "LEFT", "RIGHT", "TOP", "BOTTOM", Color.FromArgb(240, 77, 77, 77), Color.FromArgb(240, 77, 77, 77), Color.FromArgb(240, 77, 77, 77), Color.FromArgb(240, 77, 77, 77), Color.FromArgb(240, 77, 77, 77), Color.FromArgb(240, 77, 77, 77), 'S', 'N', 'W', 'E', true, null, Color.White, Color.Black, 120, true, true, null, null, null, null, null, null, false, new devDept.Geometry.Quaternion(0D, 0D, 0D, 1D), true);
             devDept.Eyeshot.Control.ScaleBar scaleBar2 = new devDept.Eyeshot.Control.ScaleBar(false, Color.Black, Color.White, Color.Black, "{0:G6}", false, devDept.Eyeshot.Control.ScaleBar.styleType.Alternate, 4, 15, 0.4D, devDept.Eyeshot.Control.ScaleBar.positionType.BottomCenter, null, null);
             devDept.Eyeshot.Control.Viewport viewport2 = new devDept.Eyeshot.Control.Viewport(new Point(0, 0), new Size(1397, 979), backgroundSettings2, camera2, new devDept.Eyeshot.Control.ToolBar[] { toolBar3, toolBar4 }, new devDept.Eyeshot.Control.Legend[] { legend2 }, histogram2, devDept.Eyeshot.displayType.Rendered, true, false, false, new devDept.Eyeshot.Control.Grid[] { grid2 }, new devDept.Eyeshot.Control.OriginSymbol[] { originSymbol2 }, false, rotateSettings2, zoomSettings2, panSettings2, navigationSettings2, coordinateSystemIcon2, viewCubeIcon2, scaleBar2);
-            manufacture1 = new devDept.Eyeshot.Control.Manufacture();
+            manufacture1 = new talasKaldirma.SyncedManufacture();
             button1 = new Button();
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)manufacture1).BeginInit();
@@ -121,7 +121,7 @@
 
         #endregion
 
-        private devDept.Eyeshot.Control.Manufacture manufacture1;
+        private talasKaldirma.SyncedManufacture manufacture1;
         private Button button1;
         private Button button2;
     }
